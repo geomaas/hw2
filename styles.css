@@ -1,0 +1,19 @@
+body {
+}
+img {
+  display: inline-block;
+  width: 100%;
+  border: 1px lightgray solid;
+}
+.img-footer {
+  display: inline-block;
+  width; 5%;
+}
+.octocat {
+  display: inline-block;
+  width: 30%
+}
+.authors {
+  display: inline-block;
+  width: 10%;
+}

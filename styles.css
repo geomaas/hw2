@@ -67,7 +67,6 @@ ul {
 }
 .authors a{
   position: relative;
-  left: 1%
-  display: inline-block;
+  float: right;
   width: 10%;
 }

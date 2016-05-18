@@ -10,21 +10,40 @@ img {
   display: inline-block;
   width; 5%;
   font-family: 13px helvetica,arial,freesans,clean,sans-serif;
+  font-weight: bold;
 }
-.image-footer a {
+
+.image-footer .image-number {
+  display: inline-block;
+  vertical-align: middle;
+}
+.image-caption a, span {
+  display: inline-block;
   text-decoration: none;
   color: black;
   font-family: sans-serif;
+  position: relative;
+
 }
-.image-caption {
+.image-footer: before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #bdbebf transparent transparent transparent;
+
+}
+.image-caption span a{
   display: inline-block;
+  position: relative;
+  left: %;
 }
 .octocat{
   display: inline-block;
   width: 30%;
   padding: 5px;
 }
-.octocat a img {
+.octocat>a>img {
   display: inline-block;
   border: 1px lightgray solid;
   border-radius: 3px;
@@ -36,10 +55,12 @@ img {
 }
 .authors a{
   display: inline-block;
-  width: 5%;
+  width: 10%;
+
 }
 
 span {
   color: lightgray;
   display: inline-block;
+
 }
